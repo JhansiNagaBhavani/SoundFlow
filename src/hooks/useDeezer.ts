@@ -1,7 +1,8 @@
 import { useState, useCallback } from "react";
 import { Track } from "@/data/mockData";
 
-const JIOSAAVN_API = "https://jiosaavn-api-privatecvc2.vercel.app";
+const JIOSAAVN_API = "https://api.jiosaavn.com/searchSongs?q=shape+of+you" ;
+
 
 interface JioSaavnTrack {
   id: string;
